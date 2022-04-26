@@ -5,16 +5,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "next": "12.1.5",
-    "react": "18.0.0",
-    "react-dom": "18.0.0"
-  },
-  "devDependencies": {
-    "eslint": "8.13.0",
-    "eslint-config-next": "12.1.5"
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.0-beta3",
+    "js-cookie": "^2.2.1",
+    "next": "10.0.9",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
   }
 }

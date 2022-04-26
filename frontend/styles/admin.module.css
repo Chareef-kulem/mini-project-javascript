@@ -1,0 +1,106 @@
+.container {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: solid rgb(245, 10, 139); */
+    background-image: url("https://wallpapercave.com/wp/wp3969482.jpg");
+    /* -webkit-background-size: cover;
+    background-size: cover; */
+    /* background-repeat: no-repeat; */
+   
+    /* background-color: bisque; */
+  }
+ 
+  .list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 10px;
+    padding: 1px;
+    flex-wrap: wrap;
+    width: 100vw;
+   
+   
+    
+  }
+  
+  .listItem {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 40px;
+    border: 2px solid rgb(19, 165, 233);
+    /* background-color: #ffffff; */
+    background-image: url("https://wallpaperaccess.com/full/1429585.jpg");
+       -webkit-background-size: cover;
+    background-size: cover;
+    font-size: 3.2rem;
+    text-align: center;
+  }
+  
+  .byttonupdate{
+    background-color: rgb(2, 231, 2);
+    border-radius: 10%;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .byttonget{
+    background-color: rgb(43, 62, 233);
+    border-radius: 10%;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .byttondelet{
+    background-color: rgb(247, 12, 157);
+    border-radius: 10%;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .byttonadd{
+    background-color: rgb(189, 1, 206);
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-top: 15px;
+  }
+
+  .formadd{
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
+      padding: 20px;
+      border: 2px solid rgb(22, 45, 247);
+      background-color: #ffffff;
+      font-size: 1.4rem;
+      text-align: center;
+  }
