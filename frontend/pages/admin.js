@@ -134,7 +134,7 @@ const SWR1 = () => {
         <Navbar />
         <h1>Admin</h1>
         {/* <h2>Income:{printIncome()}</h2> */}
-        <h2>Anime</h2>
+        <h2>information Legends</h2>
         <ul className={styles.list}  >{printAnimas()}</ul>
         selected Legends: {anima.name} {anima.style} {anima.like} {anima.reviews} {anima.score} {anima.imageurl}
         <h2>Add New Legends</h2>
